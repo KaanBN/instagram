@@ -16,6 +16,10 @@
             $this->functions = $functions;
         }
 
+        public function asd(){
+            return 'asd';
+        }
+
         public function get_my_phone_number($username = null){
 
             $username = $username ?? $this->username;
