@@ -3,7 +3,6 @@
     namespace Hasokeyk\Instagram;
 
     class Instagram{
-
         public InstagramRequest     $request;
         public InstagramLogin       $login;
         public InstagramRegister    $register;
